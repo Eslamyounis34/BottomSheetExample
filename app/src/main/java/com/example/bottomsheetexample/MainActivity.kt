@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
         bottomSheetDialog.behavior.apply {
             isDraggable = true
             state = BottomSheetBehavior.STATE_EXPANDED
-            peekHeight = 500
+            peekHeight = 300
             isHideable = false
         }
     }
